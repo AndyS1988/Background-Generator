@@ -1,0 +1,56 @@
+body {
+	width: 100%;
+	min-width: 300px;
+	height: 100%;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	letter-spacing: .5em;
+	background-image: linear-gradient(to right, #BA5D7E, #D4836A);
+}
+
+h1 {
+	margin-top: 1.5em;
+	font-size: 2.6em;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin-top: 1em;
+}
+
+input {
+	border-radius: 15%;
+	border-color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}	
+
+h3 {
+	margin-top: 1.8em;
+}
+
+hr {
+	max-width: 300px;
+	border: 1px double black;
+}
+
+button {
+	width: 50px;
+	height: 50px;
+	margin: 1em 0;
+	background-color: rgba(16, 13, 13, 0.6);
+	border: none;
+	border-radius: 15%;
+	transition: background-color 1s ease; 
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgba(77, 70, 70, 0.6)
+}
+
+h5 {
+	font-size: 0.99em;
+	font-weight: bold;
+}
